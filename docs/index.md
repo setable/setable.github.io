@@ -35,9 +35,50 @@
 - [x] 新增 LaTex 公式编号功能
 
 ### 2. 配置
-
-$$E=mc^2$$
-
+```javaScript
+		// Table id
+		container: 'setable',
+		// Width of table
+		width: '100%',
+		// Height of table
+		height: '300px',
+		// Column types and configurations
+		columns: [],
+		// Column header titles
+		colHeaders: [],
+		// Allow column sorting
+		colSort: true,
+		// Allow column dragging
+		colDrag: true,
+		// Allow column resizing
+		colResize: true,
+		// Allow row dragging
+		rowDrag: true,
+		// Allow row resizing
+		rowResize: true,
+		// Row height
+		rowHeight: '28',
+		// Minimal number of rows
+		minRows: 2,
+		// Minimal number of cols
+		minCols: 2,
+		// Minimal number of blank rows in the end
+		minSpareRows: 0,
+		// Minimal number of blank cols in the end
+		minSpareCols: 0,
+		// Allow new rows
+		allowInsertRow: true,
+		// Allow new columns
+		allowInsertCol: true,
+		// Allow row delete
+		allowDeleteRow: true,
+		// Allow column delete
+		allowDeleteCol: true,
+		// Custom context menu
+		contextMenu: null,
+		// Filename for download
+		fileName: 'setable'
+```
 ### 3. 高亮一段代码[^code]
 
 ```javaScript
