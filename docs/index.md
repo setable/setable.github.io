@@ -1,18 +1,55 @@
-Welcome to Setable（Smart Energetic Table）
-========================
-Setable（Smart Energetic Table） 是一款轻量级的类似Excel的jquery电子表格插件。可以用JS/JSON数组、CSV文件作为数据源，实现多表头、复制、粘贴、数据格式、简单运算等基本EXCEL功能，也可作为通用JS前端表格插件。
+# 欢迎使用 Setable（Smart Energetic Table）
 
-.. toctree::
-   :maxdepth: 2
-   :caption: User Documentation
+------
 
-   getting_started
-   versions
-   builds
-   features
-   support
-   faq
-   yaml-config
-   guides/index
-   api/index
-   embed
+**Setable（Smart Energetic Table）** 是一款轻量级的类似Excel的jquery电子表格插件。可以用JS/JSON数组、CSV文件作为数据源，实现多表头、复制、粘贴、数据格式、简单运算等基本EXCEL功能，也可作为通用JS前端表格插件。
+
+
+> * 轻量级
+> * 高灵活
+> * 强大的
+> * 类EXCEL
+> * 全平台
+
+------
+
+## 更新
+- [ ] 支持以 PDF 格式导出文稿
+- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+- [x] 新增 Todo 列表功能
+- [x] 修复 LaTex 公式渲染问题
+- [x] 新增 LaTex 公式编号功能
+
+------
+
+## 开始使用
+
+开始使用  开始使用  开始使用  开始使用  开始使用  开始使用  
+
+### 1. 安装 
+
+- [ ] 支持以 PDF 格式导出文稿
+- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+- [x] 新增 Todo 列表功能
+- [x] 修复 LaTex 公式渲染问题
+- [x] 新增 LaTex 公式编号功能
+
+### 2. 配置
+
+$$E=mc^2$$
+
+### 3. 高亮一段代码[^code]
+
+```javaScript
+var at = new Setable({
+		container: 'excel',
+		minCols: 20,
+		minRows: 20,
+		colHeaders: [
+				['省份', '商业销量', , , , , , , , '份额', , ,],
+				['', '全国商业销量', , , , '湖南中烟商业销量', , , , '湖南中烟市场份额%', , ,],
+				['', '本期', '同期', '增减', '增幅%', '本期', '同期', '增减', '增幅%', '本期', '同期', '增减']
+		]，
+		data: data
+});
+```
